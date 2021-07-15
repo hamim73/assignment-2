@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: Poppins;
+}
+/* header section style */
+.c-orange{
+    color: orange;
+}
+
+.section-m{
+    display: flex;
+    background-color: 
+    #2D25A0;
+}
+
+.helf{
+    width: 50%;
+    padding-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+.ing-s1{
+    width: 70%;
+}
+
+.btn-1{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white;
+}
+.h-left{
+    width: 400px;
+    height: 309px;
+    padding-left: 182px;
+}
+
+/* blog style */
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    padding: 20px;
+}
+.photo img{
+    width: 310px;
+}
+/* footer style */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 30px;
+
+}
+.logo img{
+    width: 30%;
+}
+.social{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.social-icon{
+    width: 10%;
+    display: flex;
+}
+
+/* section h */
+.c-orange{
+    color: orange;
+}
+
+.section-h{
+    display: flex;
+}
+
+.helf{
+    width: 50%;
+    padding-left: 30px;
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+
+h1{
+    font-size: 50px;
+}
+.h-left h1{
+    color: black;
+}
+
+.ing-s1{
+    width: 70%;
+}
+
+.btn-1{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    color: white;
+}
+.h-left{
+    width: 400px;
+    height: 309px;
+    padding-left: 182px;
+}
+/* media */
+@media only screen and (max-width:688px){
+    .section-m, .section-m {
+        display: flex;
+        flex-direction: column;
+    }
+}
